@@ -97,12 +97,12 @@
 
     function initWorker() {
         const workerCode = `
-            importScripts("https://unpkg.com/prettier@3.3.3/standalone.js");
-            importScripts("https://unpkg.com/prettier@3.3.3/plugins/babel.js");
-            importScripts("https://unpkg.com/prettier@3.3.3/plugins/typescript.js");
-            importScripts("https://unpkg.com/prettier@3.3.3/plugins/html.js");
-            importScripts("https://unpkg.com/prettier@3.3.3/plugins/postcss.js");
-            importScripts("https://unpkg.com/prettier@3.3.3/plugins/estree.js");
+            importScripts("https://devformat.pages.dev/plugins/standalone.js");
+            importScripts("https://devformat.pages.dev/plugins/babel.js");
+            importScripts("https://devformat.pages.dev/plugins/typescript.js");
+            importScripts("https://devformat.pages.dev/plugins/html.js");
+            importScripts("https://devformat.pages.dev/plugins/postcss.js");
+            importScripts("https://devformat.pages.dev/plugins/estree.js");
 
             self.onmessage = async function(event) {
                 try {
